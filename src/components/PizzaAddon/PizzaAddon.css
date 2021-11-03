@@ -1,0 +1,39 @@
+.modal-content{
+    border-radius: 10px;
+}
+.addon-toppings-wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    padding:2rem;
+}
+.addon-toppings-item, .addon-size-item{
+    width:20rem;
+    padding: 0.6rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.addon-size-wrapper{
+    padding:2rem;
+}
+.addon-btn-wrapper{
+    padding:2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.addon-basket-btn, .addon-cancel-btn{
+    width:20rem;
+    border: none;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    background: #b0b0b0;
+}
+.addon-cancel-btn{
+    background: transparent;
+    border: 1px solid #b0b0b0;
+}
+.error-submit{
+    text-align: center;
+    color: #dc3545;
+    font-size: 1.2rem;
+}

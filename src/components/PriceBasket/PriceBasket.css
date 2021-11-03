@@ -1,0 +1,98 @@
+.price-basket-wrapper{
+    margin: 0 5rem;
+    background: #d3d3d3;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.price-basket-item{
+    text-align: center;
+    font-size: 1.6rem;
+    border-bottom: 1px dashed #000;
+}
+.price-basket-amount{
+    display: flex;
+    flex-grow: unset;
+    padding: 1rem;
+    text-align: right;
+}
+.price-basket-amount h3{
+    width: 70%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-right: 1rem;
+    
+}
+.price-basket-amount h5{
+    width: 30%;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.price-basket-checkout{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem;
+    font-size: 1.6rem;
+    background: #aeaeae;
+    pointer-events: none;
+}
+.btn-enable{
+    background: #706bb4;
+    pointer-events: unset;
+    color: #fff;
+}
+.price-basket-empty{
+    text-align: center;
+    font-size: 1.6rem;
+}
+.price-basket-selected{
+    display:flex;
+}
+
+.price-basket-cross{
+    font-size: 2rem;
+    padding-right: 1rem;
+    border: 1px solid #aaa;
+    color: #fff;
+    border-radius: 2rem;
+    height: 30px;
+    display: flex;
+    line-height: 1.2;
+    padding-left: 9px;
+    cursor: pointer;
+    outline: none;
+    background: #aaa;
+    font-weight: bold;
+}
+.price-basket-cross:hover{
+    color:#706bb4;
+}
+
+.price-basket-addon{
+    width: 75%;
+    color: #474747;
+    font-size: 1rem;
+    margin-left: 4%;
+    text-align: right;
+    
+}
+.price-basket-addon span{
+    margin-left:5px;
+}
+.price-basket-addon span::after{
+    content:', ';
+}
+.price-basket-addon span::after:nth-last-child(){
+    content:'' !important;
+}
+.price-basket-item-name{
+    width:70%;
+    text-align: right;
+}
+.price-basket-item-price{
+    text-align: right;
+    width:20%;
+}
+.price-basket-item-unit{
+    margin-bottom: 3rem;
+}

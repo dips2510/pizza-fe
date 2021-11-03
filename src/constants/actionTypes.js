@@ -1,0 +1,11 @@
+    export const ADD_TOPPINGS = 'ADD_TOPPINGS';
+    export const FETCH_TOPPINGS = 'GET_TOPPINGS';
+    export const FETCH_SIZE = 'FETCH_SIZE';
+    export const PIZZA_LISTS = 'PIZZA_LISTS';
+    export const ADD_PIZZA = 'ADD_PIZZA';
+    export const TOGGLE_MODAL = 'TOGGLE_MODAL';
+    export const ADD_ADDON = 'ADD_ADDON';
+    export const REMOVE_ADDON = 'REMOVE_ADDON';
+    export const RESET_ORDER = 'RESET_ORDER';
+    export const SUCCESS_ORDER = 'SUCCESS_ORDER';
+    export const SUBMIT_ORDER = 'SUBMIT_ORDER';
